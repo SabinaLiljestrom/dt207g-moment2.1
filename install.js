@@ -26,4 +26,3 @@ db.serialize(() => {
 });
 
 db.close();
-console.log("Database and table created successfully.");
