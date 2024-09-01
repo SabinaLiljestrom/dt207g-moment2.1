@@ -10,7 +10,7 @@ const db = new sqlite3.Database("./db/workexperience.db");
 
 // Skapa tabell med id | companyname | jobtitle | location | startdate  | enddate | description  
 db.serialize(() => {
-    db.run("DROP TABLE IF EXISTS cv;");
+    db.run("DROP TABLE IF EXISTS workexperience;");
 
     db.run(`
     CREATE TABLE IF NOT EXISTS workexperience (
