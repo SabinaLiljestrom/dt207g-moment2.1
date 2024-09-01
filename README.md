@@ -1,12 +1,12 @@
-#Moment 2.1 i kursen DT207g
+# Moment 2.1 i kursen DT207g
 
-##Sammanfattning
+## Sammanfattning
 En REST-webbtjänst som är utvecklad med NodeJS, Express och SQLite. Applikationen haterar arbetserfarenheter. Den haterar CRUD-operatiner och input valideras om information saknas med tydliga felmeddelanden. 
 
-##Installation av databas
+## Installation av databas
 För att installera klona källkodsfiler och kör därefter npm install för att installera nödvändiga paket. Kör sedan installations scriptet install.js för att skapa databasen.  och sedan npm run start för att starta applikationen.
 
-##Användning CURD
+## Användning CURD
 Nedan finns beskrivet hur man använder webbtjänsten på olika vis:
 | Metod         | Ändpunkt                 | Beskrivning      |
 | ------------- |:------------------------:| ----------------:|
@@ -27,5 +27,5 @@ Ett objekt skickas som jJSON med följande struktur:
     "description": "Säljare"
 }
 
-###Utvecklad av
+### Utvecklad av
 Sabina Liljeström
